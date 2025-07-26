@@ -6,10 +6,10 @@ const UUID = process.env.UUID || '986e0d08-b275-4dd3-9e75-f3094b36fa2a'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';   // 没用哪吒，把这个参数空着
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo-dev.free.us.kg';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiNzFmMTU1OGEtMGQzZS00M2FmLTgyYTgtYTdmYzM0YTQ0ZjBjIiwicyI6Ik9EUXlObUl3Wm1JdE1qY3pNQzAwWW1Jd0xXRTVOMk10TnpjMk5tWm1PR1UxWW1aaSJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'zeabur.free.us.kg';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiMGQ4NDQyYzgtM2QxMi00MTQzLWI4NTMtODc2Nzk2NGJlZmQ0IiwicyI6Ik5HSTJOREF3WlRZdFpqQmhPQzAwTURBM0xUbGpZemt0WlRBME1qYzVZelprTjJVMiJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
-const NAME = process.env.NAME || 'Choreo';
+const NAME = process.env.NAME || 'zeabur';
 
 // root route
 app.get("/", function(req, res) {
